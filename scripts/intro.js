@@ -39,7 +39,6 @@
 //document.write(pessoa.correr())
 //pessoa.correr1()
 
-
 //Array - vetor
 
 //const colecaodeDados=["blue","green",13,{name:"my name"}]

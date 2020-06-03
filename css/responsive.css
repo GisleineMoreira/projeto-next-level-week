@@ -1,3 +1,4 @@
+
 @media (max-width: 1000px) {
     #page-home{
         background-position-x: 70vw;
@@ -16,7 +17,7 @@
         align-items: center;
     }
 }
-@media (min-width:1500px) {
+@media (min-width:1700px) {
     #page-home{
         background-position-x: 40vw;
     }

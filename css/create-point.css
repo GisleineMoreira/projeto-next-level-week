@@ -38,7 +38,7 @@ form {
 
     border-radius: 8px;
     max-width: 730px;
-    
+      
 }
 
 form h1{
@@ -91,12 +91,12 @@ form label {
 }
 
 form .field-group .field + .field {
-    margin-left: 24px;
+    margin-left: 26px;
 }
 
 form button {
     width: 260px;
-    height: 50px;
+    height: 56px;
 
     background-color: var(--title-color);
     border-radius: 8px;
