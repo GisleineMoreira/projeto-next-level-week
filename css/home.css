@@ -1,9 +1,10 @@
 #page-home {
     height: 100vh;
-    background: url('../new/icones/home-background.svg') no-repeat;
-    background-position: 35vw bottom;
+    background: url('../imagens/home-background.svg') no-repeat;
+    background-position: 30vw bottom;
+
 }
-    
+       
 
 #page-home .content {
     width: 90%;
@@ -36,7 +37,7 @@
  }
 #page-home a span {
      display: flex;
-     background-image: url('../new/icones/log-in.svg');
+     background-image: url('../imagens/log-in.svg');
      width: 20px;
      height: 20px;
      margin-right: 16px;
@@ -96,7 +97,7 @@
 }
 #page-home main a span::after {
     content: "";
-    background-image: url("../new/icones/search.svg");
+    background-image: url("../imagens/search.svg");
     width: 20px;
     height: 20px;
 }
