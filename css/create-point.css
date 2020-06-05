@@ -21,7 +21,7 @@
 }
 #page-create-point header a span{
     margin-right: 16px;
-    background-image: url('../new/icones/arrow-left.svg');
+    background-image: url('../imagens/arrow-left.svg');
 
     display: flex;
 
@@ -114,17 +114,17 @@ form button:hover {
     background-color: rgb(28, 143, 151);
 
 }
-.item-grid{
+.itens-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px
 
 }
-.item-grid li {
-    background-color: rgb(114, 216, 216);
+.itens-grid li {
+    background-color: rgb(176, 236, 236);
     list-style: none;
 
-    border: 2px solid rgb(135, 176, 222) ;
+    border: 2px solid rgb(147, 193, 241) ;
     border-radius: 8px ;
     height: 180px;
 
@@ -141,16 +141,21 @@ form button:hover {
     cursor: pointer;
 }
 
-.item-grid li span{
+.itens-grid li span{
     margin-top: 12px;
     flex:1;
 
     display: flex;
     align-items: center;
 
-    color: var(--title-color);
+    color: rgb(105, 32, 173);
 }
-.item-grid li.selected{
-    background: #e1faec;
-    border: 2px solid rgb(37, 133, 197);
+.itens-grid li.selected {
+    background: #76f7ae;
+    border: 2px solid rgb(80, 240, 165);
+}
+
+.itens-grid li img,
+.itens-grid li span {
+    pointer-events: none;
 }
