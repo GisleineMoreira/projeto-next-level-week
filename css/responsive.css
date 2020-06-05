@@ -1,5 +1,5 @@
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     #page-home{
         background-position-x: 70vw;
     }
@@ -10,6 +10,7 @@
     #page-home header a {
         position: absolute;
         bottom: 48px;
+
         left: 50%;
         transform: translateX(-50%);
     }
@@ -17,7 +18,7 @@
         align-items: center;
     }
 }
-@media (min-width:1700px) {
+@media (min-width:1770px) {
     #page-home{
         background-position-x: 40vw;
     }

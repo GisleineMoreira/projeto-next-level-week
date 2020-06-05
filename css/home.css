@@ -1,7 +1,7 @@
 #page-home {
-    height: 100vh;
+    height: 120vh;
     background: url('../imagens/home-background.svg') no-repeat;
-    background-position: 30vw bottom;
+    background-position: 36vw bottom;
 
 }
        
@@ -64,8 +64,8 @@
 
 #page-home main a {
     width: 100%;
-    max-width: 250px;
-    height: 71px;
+    max-width: 450px;
+    height: 60px;
     border-radius: 7px;
    
     display: flex;
@@ -73,7 +73,7 @@
 
     margin-top: 30px;
 
-    background-color: #9077ecbd;
+    background-color: #28e2e2f1;
     transition: 400ms;
     
 }
@@ -82,16 +82,17 @@
     background: rgb(36, 160, 160);
 }
 #page-home main a span{
-    width: 72px;
-    height: 72px;
+    width: 60px;
+    height: 60px;
 
     border-radius: 8px;
     border-bottom-left-radius: 8px;
 
-    background: rgba(65, 244, 250, 0.8);
+    background: rgb(115, 244, 248);
     display: flex;
     align-items: center;
     justify-content: center;
+   
 
 
 }
@@ -103,6 +104,6 @@
 }
 #page-home main a strong {
     flex: 1;
-    color: rgb(194, 194, 224);
+    color: rgb(14, 14, 92);
     text-align: center;
 }
