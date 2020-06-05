@@ -1,5 +1,5 @@
 #modal {
-background-color: rgb(198, 144, 252);
+background-color: var(--primary-color);
 
 height: 100vh;
 width: 100vw;
