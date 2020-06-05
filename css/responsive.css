@@ -1,5 +1,5 @@
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     #page-home{
         background-position-x: 70vw;
     }
@@ -18,12 +18,12 @@
         align-items: center;
     }
 }
-@media (min-width:1770px) {
+@media (min-width:1000px) {
     #page-home{
         background-position-x: 40vw;
     }
 }
-@media (max-height:760px) {
+@media (max-height:990px) {
     #page-home{
         background-position-y: 200px;
     }
