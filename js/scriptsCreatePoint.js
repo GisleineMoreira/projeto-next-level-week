@@ -62,6 +62,7 @@ for(const iten of itensToCollect ){
     iten.addEventListener("click", handleSelectedIten)
 }
 
+const collectedItens = document.querySelector("input[name=itens]")
 let selectedItens =[]
 
 function handleSelectedIten(event){
@@ -97,10 +98,9 @@ function handleSelectedIten(event){
         //adcionar a seleçao
         selectedItens.push(itenId)
     }    
-      console.log(selectedItens)
 
-    
     //se não estiver selecionado, adcionar  à seleção
-
     // atualizar o campo escondido com os itens 
+    
+    collectedItens.value = selectedItens
 }
